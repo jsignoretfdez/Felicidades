@@ -1,0 +1,132 @@
+﻿.kg-ui-controlbar {
+	padding-top: 2px;
+}
+
+.kg-ui-controlbar > * {
+	float: left;
+}
+
+.kg-ui-controlbar button {
+	height: 26px;
+}
+
+.kg-ui-controlbar .annotationBtns
+{
+	float:right;
+}
+
+.kg-ui-controlbar .annotationBtns > *
+{
+	float:right;
+}
+
+/* volume slider */
+.kg-ui-controlbar .volumeSlider
+{
+	margin: 11px 7px 0px 0px;
+	height: 3px;
+	width: 59px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-khtml-border-radius: 0px;
+	border-radius: 0px;
+    border: 1px solid #5d5d5d;
+    background: #3a3a3a;
+}
+
+.kg-ui-controlbar .volumeSlider, .kg-ui-controlbar .volumeSlider a
+{
+	cursor: pointer;
+}
+
+.kg-ui-controlbar .volumeSlider .ui-slider-range
+{
+	height: 3px;
+	background: #007DF6;
+    margin-top: -1px;
+    margin-left: -1px;
+    border-top: 1px solid #7dafdf;
+    border-bottom: 1px solid #7dafdf;
+}
+
+.kg-ui-controlbar .volumeSlider .ui-slider-handle
+{
+	top: -6px;
+	height: 13px;
+	width: 6px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-khtml-border-radius: 0px;
+	border-radius: 0px;
+	background:#dddddd;
+	border: 1px solid #2d2d2d;
+	margin-left: -3px;
+}
+
+.kg-ui-controlbar .volumeSlider .ui-slider-handle:hover
+{
+    background:white ;
+	border: 1px solid #050505;
+}
+
+/* time code */
+.kg-ui-controlbar .timeCode
+{
+	width: 140px;
+	margin: 5px 5px 5px 20px;
+	color:white;
+	font-size:1.1em;
+	font-weight:bold;
+}
+.kg-ui-controlbar .timeCodeDuration
+{
+    color:#8a8a8a;
+}
+
+.kg-ui-controlbar .marksText
+{
+    max-width: 40px;
+	font-weight:bold;
+	color: white;
+	margin-right: 8px;
+	margin-left: 5px;
+	margin-top: 8px;
+}
+
+/* control-btn state */
+.kg-ui-controlbar .kg-ui-control-btn {
+	width: 34px;
+	height: 25px;
+	border: none;
+	-moz-border-radius: 0px/*{cornerRadius}*/;
+	-webkit-border-radius: 0px/*{cornerRadius}*/;
+	-khtml-border-radius: 0px/*{cornerRadius}*/;
+	border-radius: 0px/*{cornerRadius}*/;
+}
+.kg-ui-controlbar .kg-ui-control-btn .kg-ui-icon {
+	background-image: url("../img/kg_icon.png");
+	margin-left: -17px;
+	margin-top: -12.5px;
+}
+.kg-ui-controlbar .kg-ui-control-btn.ui-button-text-icon-primary .kg-ui-icon {
+	left: 1em;
+}
+.kg-ui-controlbar .kg-ui-control-btn.ui-state-default {
+	border:1px solid transparent;
+	background: transparent;
+	-moz-border-radius: 2px/*{cornerRadius}*/;
+	-webkit-border-radius: 2px/*{cornerRadius}*/;
+	-khtml-border-radius: 2px/*{cornerRadius}*/;
+	border-radius: 2px/*{cornerRadius}*/;
+	margin-left:3px;
+	margin-right:3px;
+	width:36px;
+}
+.kg-ui-controlbar .kg-ui-control-btn.ui-state-hover {
+	border:1px solid rgba(40, 40, 40, 0.6);
+	background: rgba(40, 40, 40, 1);
+}
+.kg-ui-controlbar .kg-ui-control-btn.ui-state-active {
+	border:1px solid rgba(60, 60, 60, 0.6);
+	background: rgba(60, 60, 60, 1);
+}

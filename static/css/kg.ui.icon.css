@@ -1,0 +1,550 @@
+﻿.kg-ui-icon
+{
+	background-image: url("../img/kg_icon.png");
+}
+.kg-ui-icon-tag {
+	width: 66px;
+	height: 39px;
+	background-position: 0px 0px;
+}
+.kg-ui-icon-title {
+	width: 66px;
+	height: 39px;
+	background-position: 0px -50px;
+}
+.kg-ui-icon-link {
+	width: 66px;
+	height: 39px;
+	background-position: 0px -100px;
+}
+.kg-ui-icon-multitrim-bg
+{
+	height: 45px;
+	background-position: -34px -455px;
+}
+.kg-ui-icon-multitrim {
+	width: 100px;
+	height: 50px;
+	background-position: 0px -150px;
+	z-index: 2;
+    top: 16px !important;
+}
+.kg-ui-icon-guestname {
+	background-image: url("../img/kg_icon.png");
+	width: 50px;
+	height: 50px;
+	background-position: 0px -300px;
+}
+.kg-ui-icon-markin {
+	width: 100px;
+	height: 32px;
+	background-position: 0px -500px;
+}
+.kg-ui-icon-markin-hover {
+	width: 100px;
+	height: 32px;
+	background-position: 0px -550px;
+}
+.kg-ui-icon-markout {
+	width: 100px;
+	height: 32px;
+	background-position: 0px -600px;
+}
+.kg-ui-icon-markout-hover {
+	width: 100px;
+	height: 32px;
+	background-position: 0px -650px;
+}
+.kg-ui-icon-markout-icon {
+	width: 56px;
+    height: 39px;
+    background-position: -244px -600px;
+}
+/* icon -logo -default */
+.kg-ui-icon-Corellogo {
+	width: 107px;
+	height: 34px;
+	background-position: 0px -700px;
+}
+.kg-ui-icon-kglogo {
+	width: 160px;
+	height: 50px;
+	background-position: 0px -750px;
+}
+.kg-ui-icon-login {
+	height: 42px;
+	background-position: 0px -850px;
+}
+.kg-ui-icon-loginafter 
+{
+    background-image: url("../img/kg_icon.png");
+	height: 42px;
+	background-position: 0px -800px;
+}
+.kg-ui-icon-guest {
+	width: 50px;
+	height: 50px;
+	background-position: 0px -950px;
+}
+/* metabar arrow */
+.kg-ui-icon-metaberarrow-latest {
+	width: 12px;
+	height: 7px;
+	background-position: 0px -1450px;
+}
+.kg-ui-icon-metaberarrow-notyet {
+	width: 12px;
+	height: 7px;
+	background-position: -20px -1450px;
+}
+.kg-ui-icon-metaberarrow-old {
+	width: 12px;
+	height: 7px;
+	background-position: -40px -1450px;
+}
+/* icon -playback control -default */
+.kg-ui-icon-play {
+	width: 34px;
+	height: 25px;
+	background-position: 0px -1500px;
+}
+.kg-ui-icon-pause {
+	width: 34px;
+	height: 25px;
+	background-position: 0px -2100px;
+}
+.kg-ui-icon-previous {
+	width: 34px;
+	height: 25px;
+	background-position: 0px -1530px;
+}
+.kg-ui-icon-next {
+	width: 34px;
+	height: 25px;
+	background-position: 0px -1560px;
+}
+.kg-ui-icon-volume {
+	width: 34px;
+	height: 25px;
+	background-position: 0px -1590px;
+}
+.kg-ui-icon-previousMark {
+	width: 34px;
+	height: 25px;
+	background-position: 0px -1620px;
+}
+.kg-ui-icon-nextMark {
+	width: 34px;
+	height: 25px;
+	background-position: 0px -1650px;
+}
+.kg-ui-icon-hideMark {
+	width: 34px;
+	height: 25px;
+	background-position: 0px -1680px;
+}
+.kg-ui-icon-showMark {
+	width: 34px;
+	height: 25px;
+	background-position: 0px -2280px;
+}
+.kg-ui-icon-fullscreen {
+	width: 34px;
+	height: 25px;
+	background-position: 0px -1710px;
+}
+/* icon -playback control -hover */
+.kg-ui-icon-play-hover {
+	width: 34px;
+	height: 25px;
+	background-position: 0px -1800px;
+}
+.kg-ui-icon-previous-hover {
+	width: 34px;
+	height: 25px;
+	background-position: 0px -1830px;
+}
+.kg-ui-icon-next-hover {
+	width: 34px;
+	height: 25px;
+	background-position: 0px -1860px;
+}
+.kg-ui-icon-volume-hover {
+	width: 34px;
+	height: 25px;
+	background-position: 0px -1890px;
+}
+.kg-ui-icon-previousMark-hover {
+	width: 34px;
+	height: 25px;
+	background-position: 0px -1920px;
+}
+.kg-ui-icon-nextMark-hover {
+	width: 34px;
+	height: 25px;
+	background-position: 0px -1950px;
+}
+.kg-ui-icon-showhideMark-hover {
+	width: 34px;
+	height: 25px;
+	background-position: 0px -1980px;
+}
+.kg-ui-icon-fullscreen-hover {
+	width: 34px;
+	height: 25px;
+	background-position: 0px -2010px;
+}
+/* icon -playback control -active */
+.kg-ui-icon-play-active {
+	width: 34px;
+	height: 25px;
+	background-position: 0px -2100px;
+}
+.kg-ui-icon-volume-active {
+	width: 34px;
+	height: 25px;
+	background-position: 0px -2190px;
+}
+.kg-ui-icon-showhideMark-active {
+	width: 34px;
+	height: 25px;
+	background-position: 0px -2280px;
+}
+.kg-ui-icon-Mark {
+	width: 21px;
+	height: 21px;
+	background-position: -100px -2280px;
+}
+.kg-ui-icon-fullscreen-active {
+	width: 34px;
+	height: 25px;
+	background-position: 0px -2310px;
+}
+/* icon -other*/
+.kg-ui-icon-sliderthumb {
+	width: 17px;
+	height: 20px;
+	background-position: 0px -2400px;
+}
+.kg-ui-icon-thumb {
+	width: 20px;
+	height: 15px;
+	background-position: 0px -2430px;
+}
+.kg-ui-icon-search {
+    background-image: url("../img/kg_icon.png") !important; 
+	width: 28px!important; 
+	height: 30px!important; 
+	background-position: 0px -2460px!important; 
+	display:block!important; 
+}
+.kg-ui-icon-add {
+	width: 21px;
+	height: 20px;
+	background-position: 0px -2490px;
+}
+.kg-ui-icon-delete {
+	width: 21px;
+	height: 20px;
+	background-position: 0px -2520px;
+}
+.kg-ui-icon-TrimSelectdelete {
+	width: 21px;
+	height: 20px;
+	background-position: -50px -2520px;
+}
+.kg-ui-icon-editable {
+	width: 21px;
+	height: 20px;
+	background-position: 0px -2550px;
+}
+.kg-ui-icon-demovideo {
+	width: 17px;
+	height: 16px;
+	background-position: 0px -2580px;
+}
+.kg-ui-icon-savebtn {
+	width: 16px;
+	height: 17px;
+	background-position: -100px -2580px;
+}
+.kg-ui-icon-projectbtn {
+	width: 24px;
+	height: 22px;
+	background-position: -116px -2580px;
+}
+.kg-ui-icon-arrowdown {
+	width: 12px;
+	height: 8px;
+	background-position: 0px -2610px;
+}
+.kg-ui-icon-videoinfo {
+	width: 22px;
+	height: 18px;
+	background-position: 0px -2640px;
+	display:block;
+}
+.kg-ui-icon-editinfo {
+	width: 18px;
+	height: 18px;
+	background-position: 0px -2670px;
+	display:block;
+}
+.kg-ui-icon-info {
+	width: 18px;
+	height: 18px;
+	background-position: 0px -2700px;
+}
+.kg-ui-icon-warning
+{
+    background-image: url("../img/kg_icon.png"); 
+	width: 23px;
+	height: 20px;
+	background-position: -100px -2700px;
+    position: absolute;
+    top:8px;
+	left:10px;
+}
+.kg-ui-icon-fontbold {
+	width: 28px;
+	height: 28px;
+	background-position: 0px -2730px;
+}
+.kg-ui-icon-fontitalic {
+	width: 28px;
+	height: 28px;
+	background-position: 0px -2760px;
+}
+.kg-ui-icon-fontunderline {
+	width: 28px;
+	height: 28px;
+	background-position: 0px -2790px;
+}
+.kg-ui-icon-TrimThumb {
+	width: 13px;
+	height: 35px;
+	background-position: 0px -2820px;
+}
+.kg-ui-icon-new {
+	width: 12px;
+	height: 12px;
+	background-position: 0px -2880px;
+}
+.kg-ui-icon-DBupArrow {
+	width: 14px;
+	height: 13px;
+	background-position: 0px -2910px;
+}
+.kg-ui-icon-DBupArrowblack {
+	width: 14px;
+	height: 13px;
+	background-position: -100px -2910px;
+}
+.kg-ui-icon-DBupArrowGreen {
+	width: 14px;
+	height: 13px;
+	background-position: -114px -2910px;	
+}
+.kg-ui-icon-DBdownArrow {
+	width: 14px;
+	height: 13px;
+	background-position: 0px -2940px;
+}
+.kg-ui-icon-DBLeftArrow {
+	width: 14px;
+	height: 13px;
+	background-position: -100px -2940px;
+}
+.kg-ui-icon-titleAblack {
+	width: 18px;
+	height: 18px;
+	background-position: 0px -2970px;
+}
+.kg-ui-icon-titleAWhite{
+	width: 18px;
+	height: 18px;
+	background-position: 0px -3000px;
+}
+.kg-ui-icon-DownArrow{
+	width: 10px;
+	height: 7px;
+	background-position: 0px -3030px;
+}
+.kg-ui-icon-triminfo {
+	width: 17px;
+	height: 16px;
+	background-position: 0px -3060px;
+}
+.kg-ui-icon-librarySource_arrow {
+	width: 21px;
+	height: 11px;
+	background-position: 0px -3090px;
+}
+.kg-ui-icon-tooltip_arrow {
+	width: 20px;
+	height: 10px;
+	background-position: -100px -3090px;
+}
+.kg-ui-icon-tooltip_arrow_up {
+	width: 20px;
+	height: 10px;
+	background-position: -140px -3090px;
+}
+.kg-ui-icon-Dialog_arrow {
+	width: 16px;
+	height: 7px;
+	background-position: 0px -3120px;
+}
+.kg-ui-icon-install_arrow {
+	width: 43px;
+	height: 21px;
+	background-position: -100px -3120px;
+}
+.kg-ui-icon-taglink {
+	width: 27px;
+	height: 20px;
+	background-position: 0px -3150px;
+}
+.kg-ui-icon-unlink {
+	width: 34px;
+	height: 24px;
+	background-position: 0px -3180px;
+}
+
+.kg-ui-icon-TAnone{
+	width: 30px;
+	height: 30px;
+	background-position: -100px -1500px;
+}
+.kg-ui-icon-TAFade{
+	width: 30px;
+	height: 30px;
+	background-position: -100px -1530px;
+}
+.kg-ui-icon-TAZoomSpin{
+	width: 30px;
+	height: 30px;
+	background-position: -100px -1560px;
+}
+.kg-ui-icon-TAPop{
+	width: 30px;
+	height: 30px;
+	background-position: -100px -1590px;
+}
+.kg-ui-icon-TAtopleft{
+	width: 30px;
+	height: 30px;
+	background-position: -100px -1620px;
+}
+.kg-ui-icon-TAleft{
+	width: 30px;
+	height: 30px;
+	background-position: -100px -1650px;
+}
+.kg-ui-icon-TAbottomleft{
+	width: 30px;
+	height: 30px;
+	background-position: -100px -1680px;
+}
+.kg-ui-icon-TAtop{
+	width: 30px;
+	height: 30px;
+	background-position: -100px -1710px;
+}
+.kg-ui-icon-TAZoom{
+	width: 30px;
+	height: 30px;
+	background-position: -100px -1740px;
+}
+.kg-ui-icon-TAbottom{
+	width: 30px;
+	height: 30px;
+	background-position: -100px -1770px;
+}
+.kg-ui-icon-TAtopright{
+	width: 30px;
+	height: 30px;
+	background-position: -100px -1800px;
+}
+.kg-ui-icon-TAright{
+	width: 30px;
+	height: 30px;
+	background-position: -100px -1830px;
+}
+.kg-ui-icon-TAbottomright{
+	width: 30px;
+	height: 30px;
+	background-position: -100px -1860px;
+}
+
+.kg-ui-icon-FBLogin{
+    height: 28px;
+    background-position: 0px -905px;
+}
+
+/* loading animation */
+.kg-ui-loading-animation
+{
+	background-image: url("../img/loading_loop.png");
+	width: 25px;
+	height: 25px;
+}
+/* chochop logo icon */
+.kg-ui-icon-PreviewTipIcon{
+	width: 52px;
+	height: 40px;
+	background-position: -100px -100px;
+}
+.kg-ui-icon-UserNameIcon{
+	width: 50px;
+	height: 50px;
+	background-position: -100px -150px;
+}
+.kg-ui-icon-ToolTagIcon{
+	width: 37px;
+	height: 37px;
+	background-position: -100px -200px;
+}
+.kg-ui-icon-ToolTitleIcon{
+	width: 37px;
+	height: 37px;
+	background-position: -100px -300px;
+}
+.kg-ui-icon-ToolLinkIcon{
+	width: 51px;
+	height: 36px;
+	background-position: -100px -400px;
+}
+.kg-ui-icon-ToolTagIconDrop{
+	width: 55px;
+	height: 58px;
+	background-position: -200px -200px;
+}
+.kg-ui-icon-ToolTitleIconDrop{
+	width: 55px;
+	height: 58px;
+	background-position: -200px -300px;
+}
+.kg-ui-icon-ToolLinkIconDrop{
+	width: 55px;
+	height: 58px;
+	background-position: -200px -400px;
+}
+
+.kg-ui-icon-youtube {
+	width: 66px;
+	height: 26px;
+	background-position: 0px -700px;
+}
+
+.kg-ui-icon-youtubeMono {
+	width: 74px;
+	height: 29px;
+	background-position: 0px -750px;
+}
+
+.kg-ui-icon-youtubeThumbnail {
+	width: 28px;
+	height: 11px;
+	background-position: -100px -750px;
+}

@@ -1,0 +1,113 @@
+.ui-seekbar
+{
+	margin: 0px;
+	border: 0px;
+	height: 6px;
+	width:100%;
+	z-index:5;
+	background-color:transparent;
+	background-image: none;
+}
+		
+.ui-seekbar .ui-slider-range 
+{
+	background: #f60263;
+	border: 0px;
+	height: 6px;
+}
+
+.ui-seekbar .ui-slider-buffer 
+{
+	position: absolute;
+	z-index: 0;
+	top: 0px;
+	width: 100%;
+	border: 0px;
+	height: 6px;
+}
+		
+.ui-seekbar .ui-slider-handle
+{
+	height: 18px;
+	width: 17px;
+	display: block;
+	top: -4px;
+	/*border-color:#343434;*/
+	border:0px;
+	background-color:transparent;
+	background-image: url("../img/kg_icon.png");
+	background-position: 0px -2430px;
+	outline-style:none;
+}
+.ui-seekbar .ui-slider-handle:hover
+{
+    background-position: -100px -2430px;
+}
+
+/* offset layout */
+.ui-seekbar .ui-seekbar-layout
+{
+	padding:0px;
+	height: 6px;
+	position: relative;
+}
+
+.ui-seekbar .ui-seekbar-layout-left
+{
+	padding:0px;
+	height:6px;
+}
+
+.ui-seekbar .ui-seekbar-layout-bar
+{
+	padding:0px;
+	height:6px;
+	width:100%; 
+	position:relative;
+}
+
+.ui-seekbar .ui-seekbar-layout-right
+{
+	padding:0px;
+	height:6px;
+}
+
+
+.ui-seekbar .ui-seekbar-leftPadding
+{
+    display: block;
+	background: transparent;
+	width: 7px;
+	height: 6px;
+	z-index:1;
+	position: static;
+}
+
+.ui-seekbar .ui-seekbar-bar
+{
+    width: inherit;
+	height: 6px;
+	position:relative;
+}
+
+.ui-seekbar .ui-seekbar-rightPadding
+{
+    display: block;
+	background: transparent;
+	width: 7px;
+	height: 6px;
+	z-index:1;
+	position: static;
+}
+
+/*
+.ui-seekbar .ui-seekbar-leftPadding
+{
+    display: none;
+	background: #f60263;
+	width: 10px;
+	height: 6px;
+	z-index:1;
+	position: absolute;
+	left: -7px;
+}*/

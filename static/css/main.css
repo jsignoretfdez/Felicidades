@@ -1,0 +1,13 @@
+body {font-size: 14px;}
+body.fullscreen {background-color:Black;}
+#standardView {margin-left:auto;margin-right:auto;}
+#videoCanvas {cursor:default;}
+#mainControls {height:39px}
+#fullscreenView_controlsPlaceHolder {background-image: url("../img/PlayControlbg.png"); background-repeat: repeat-x; background-position: 0px -4px; height: 39px;}
+#standardView_controlsPlaceHolder {background-image: url("../img/PlayControlbg.png"); background-repeat: repeat-x; background-position: 0px -4px; height: 39px;}
+#notSupportString{z-index:5;white-space:nowrap;color:#5670A8;position:absolute}
+*{font-family:Arial,Helvetica,Verdana,sans-serif}
+.ui-widget{font-family:Arial,Helvetica,Verdana,sans-serif}
+.ui-button{margin-left:-1px}
+.ui-button-icon-only .ui-button-text{padding:.35em}
+.ui-widget-content{border-top-width:0!important}

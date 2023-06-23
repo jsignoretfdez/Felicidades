@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <title>VideoStudio-HTML5</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=100" >
+        <!-- IE9 mode -->
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+        <script src="https://ajax.googleapis.com/ajax/libs/mootools/1.3.1/mootools-yui-compressed.js" type="text/javascript"></script>
+        <script src="https://glmatrix.googlecode.com/files/glMatrix-0.9.5.min.js" type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js" type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js" type="text/javascript"></script>		
+        <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"></link>
+
+        <script>
+            kg = {};
+            kg.ui = {};
+        </script>
+        <script src="static/libs/modernizr.js" type="text/javascript"></script>
+        <script src="static/libs/knockout-1.2.0.js" type="text/javascript"></script>
+        <script src="static/libs/jvre.jsmin.js" type="text/javascript"></script>
+        <script src="static/js/kg.ui.tip.js" type="text/javascript"></script>
+        <script src="static/js/kg.ui.seekbar.js" type="text/javascript"></script>
+        <script src="static/js/kg.ui.controlbar.js" type="text/javascript"></script>
+        <script src="static/js/controlbarDelegate.js" type="text/javascript"></script>
+        <script src="static/js/ui.main.js" type="text/javascript"></script>
+        <script src="static/js/main.js" type="text/javascript"></script>
+        <script src="static/js/iOSVideoSourceEventHandler.js" type="text/javascript"></script>
+        <script src="Project.js" type="text/javascript"></script>
+        <link href="static/css/main.css" rel="stylesheet" type="text/css"></link>
+        <link href="static/css/kg.ui.controlbar.css" rel="stylesheet" type="text/css"></link>
+        <link href="static/css/kg.ui.icon.css" rel="stylesheet" type="text/css"></link>
+        <link href="static/css/kg.ui.seekbar.css" rel="stylesheet" type="text/css"></link>
+    </head>
+    <body>
+        <span>
+            <textarea id="source" style="width: 480px; height: 150px; display:none">
+            </textarea>
+        </span>
+        <span>
+            <textarea id="snippet" style="width: 480px; height: 150px; display:none">
+            </textarea>
+        </span>
+        <span>
+            <textarea id="hit" style="width: 480px; height: 150px; display:none">
+            </textarea>
+        </span>		
+        <br/>
+
+        <div id="fullscreenView" style="display:none; position:absolute; top:0px; left:0px; width:100%; height:100%;">
+            <table style="width: 100%; height:100%;" cellpadding="0" border="0" cellspacing="0">
+                <tr>
+                    <td valign="middle" align="center">
+                        <div id="fullscreenView_videoPreviewContainerPlaceHolder" style="width:100%; height:100%;"></div>
+                    </td>
+                </tr>
+            </table>
+            <div id="fullscreenView_controlsPlaceHolder" style="position:absolute; bottom:0px; left:0px; width:100%; z-index:1; min-width:500px"></div>
+        </div>
+
+        <div id="standardView" style="display:none">
+            <!-- standardView_videoPreviewContainerPlaceHolder -->
+            <div id="standardView_videoPreviewContainerPlaceHolder">
+                <div id="videoPreviewContainer" style="position:relative;">
+                    <canvas id="videoCanvas" style="vertical-align:bottom; background-color:Black;" width="640" height="480"></canvas>
+                </div>
+            </div>
+            <!--standardView_videoPreviewContainerPlaceHolderr -->
+      
+            <!-- standardView_controlsPlaceHolder -->	
+            <div id="standardView_controlsPlaceHolder">
+                <div id="mainControls" >
+                    <div id="seekbar" style="height:6px">		
+                        <div id="seekbarSection">
+                            <div id="mySeekbar"></div>
+                        </div>
+                    </div>
+                    <div id="controlBar" style="margin-left:auto; margin-right:auto;">
+                        <div class="kg-ui-controlbar">    
+                            <div class="playBtn kg-ui-control-btn"></div>
+                            <div class="pauseBtn kg-ui-control-btn"></div>
+                            <div class="prevFrameBtn kg-ui-control-btn"></div>
+                            <div class="nextFrameBtn kg-ui-control-btn"></div>
+                            <div class="volumeBtn kg-ui-control-btn"></div>
+                            <div class="muteBtn kg-ui-control-btn"></div>
+                            <div class="volumeSlider"></div>
+                            <div class="timeCode">
+                                <span class="timeCodeTime"></span>
+                                <span class="timeCodeDuration"></span>
+                            </div>
+                            <div class="annotationBtns">
+                                <div class="fullscreenBtn kg-ui-control-btn"></div>
+                                <div class="restoreFullscreenBtn kg-ui-control-btn"></div>
+                                <div class="nextMarkBtn kg-ui-control-btn"></div>
+                                <div class="hideMarkBtn kg-ui-control-btn"></div>
+                                <div class="showMarkBtn kg-ui-control-btn"></div>
+                                <div class="prevMarkBtn kg-ui-control-btn"></div>
+                            </div>
+                        </div>					
+                    </div>
+                </div>
+            </div>
+            <!-- standardView_controlsPlaceHolder -->	
+        </div>
+
+        <div id="videoDIVForiOS" style="position:fixed; z-index:-1;">
+            <video id="videoElementForiOS">
+                <source id="videoSrcMp4" src="" type="video/mp4"/>
+                <source id="videoSrcWebm" src="" type="video/webm"/>
+                Your browser does not support video element. 
+            </video>
+        </div>
+    </body>
+</html>
+
